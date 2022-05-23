@@ -6,6 +6,8 @@
 	font-weight: 500
 	font-size: 32px
 	text-decoration: underline
+	@media (max-width: 1199px)
+		text-align: center
 
 .cards
 	display: grid
@@ -13,7 +15,7 @@
 	gap: 43px 40px
 	grid-auto-rows: min-content
 	justify-content: center
-	@media (max-width: 1299px)
+	@media (max-width: 1199px)
 		grid-template-columns: repeat(3, min-content)
 	@media (max-width: 900px)
 		grid-template-columns: repeat(2, min-content)
