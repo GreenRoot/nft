@@ -72,8 +72,56 @@
 	<!-- NFT Search -->
 	<section class="nft-search container">
 	<h2 class="title">NFT Search</h2>
-	<div class="nft-calc"></div>
-	<div class="nft-wrapper"></div>
+	<div class="nft-calc">
+		<div class="nft-calc__prewiew">
+			<h3 class="nft-calc__title">Fill out the form</h3>
+			<div class="nft-calc__arrow">
+				<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+					<path d="M9.33325 4.66675L18.6666 14.0001L9.33325 23.3334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</div>
+		</div>
+		<!-- calculate -->
+		<form action="#" class="calc">
+			<h2 class="calc__title">Assemble NFT&nbsp;portfolio</h2>
+			<label class="calc__label">
+				<div class="calc__text">How much money are you willing to invest?</div>
+				<div class="calc__input">
+					<span class="calc__input-prefix">$</span>
+					<input class="calc__input-number" type="number" value="1000" step="10" min="10" max="10000000">
+				</div>
+			</label>
+			<div class="calc-radio">
+				<div class="calc-radio__text">What is the level of risk?</div>
+				<div class="calc-radio__inputs">
+					<label class="radio">
+						<input checked class="radio__input" id="lowRisk" type="radio" name="risk">
+						<span class="radio__imput-radio"></span>
+						<span class="radio__label">Low Risk</span>
+					</label>
+					<label class="radio">
+						<input class="radio__input" id="moderate" type="radio" name="risk">
+						<span class="radio__imput-radio"></span>
+						<span class="radio__label">Moderate</span>
+					</label>
+					<label class="radio">
+						<input class="radio__input" id="high" type="radio" name="risk">
+						<span class="radio__imput-radio"></span>
+						<span class="radio__label">High</span>
+					</label>
+					<label class="radio">
+						<input class="radio__input" id="veryHigh" type="radio" name="risk">
+						<span class="radio__imput-radio"></span>
+						<span class="radio__label">Very high</span>
+					</label>
+				</div>
+			</div>
+			<button class="btn btn-calc">Calculate</button>
+		</form>
+	</div>
+	<div class="nft-wrapper">
+		
+	</div>
 	</section>
 	</main>
 
