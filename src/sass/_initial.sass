@@ -6,6 +6,7 @@
 			flex-direction: column-reverse
 			align-items: center
 .initial__img
+	position: relative
 	width: 509px
 	height: 401px
 	margin-right: 100px
@@ -19,7 +20,24 @@
 	@media (max-width: 530px)
 		width: 100%
 		height: auto
+	&-aura
+		position: absolute
+		height: 170px
+		width: 179px
+		filter: blur(117px)
+		background: #fff
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		@media (max-width: 530px)
+			height: 150px
+			width: 150px
+		@media (max-width: 400px)
+			height: 110px
+			width: 110px
 	& img
+		position: relative
+		z-index: 1
 		height: 100%
 		object-fit: cover
 		@media (max-width: 530px)
