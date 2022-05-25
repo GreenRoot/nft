@@ -1,5 +1,5 @@
 # node modules
-/node_modules
+/node_modules*
 
 # package-lock
 package-lock.json
@@ -8,5 +8,5 @@ package-lock.json
 .parcel-cache
 
 # Buid
-/dist
-/build
+/dist*
+/build*
